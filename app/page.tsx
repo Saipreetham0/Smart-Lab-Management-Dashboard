@@ -35,7 +35,6 @@ export default function Dashboard() {
         let totalSessions = 0;
         let activeSessions = 0;
         let totalEnergy = 0;
-        let hasActive = false;
         const sessions: Array<{ id: string; session: Session }> = [];
 
         if (data.sessions) {
@@ -43,7 +42,6 @@ export default function Dashboard() {
             totalSessions++;
             sessions.push({ id, session });
             if (session.status === 'active') {
-              hasActive = true;
               activeSessions++;
             }
             if (session.energyUsed) totalEnergy += session.energyUsed;
@@ -54,7 +52,10 @@ export default function Dashboard() {
         sessions.sort((a, b) => b.session.startTime - a.session.startTime);
         setRecentSessions(sessions.slice(0, 3));
 
-        setIsActive(hasActive);
+        // Check if device is active based on currentStatus.status field
+        const deviceActive = data.currentStatus?.status === 'active';
+
+        setIsActive(deviceActive);
         setSessionCount(totalSessions);
         setActiveSessionCount(activeSessions);
         setEnergy(totalEnergy);
@@ -68,26 +69,6 @@ export default function Dashboard() {
 
     return () => unsubscribe();
   }, []);
-
-  const formatTime = (timestamp: number) => {
-    if (!timestamp) return 'Never';
-    const date = new Date(timestamp);
-    return date.toLocaleTimeString('en-US', {
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit'
-    });
-  };
-
-  const formatDate = (timestamp: number) => {
-    if (!timestamp) return 'N/A';
-    const date = new Date(timestamp);
-    return date.toLocaleDateString('en-US', {
-      month: 'short',
-      day: 'numeric',
-      year: 'numeric'
-    });
-  };
 
   const getTimeDiff = (timestamp: number) => {
     if (!timestamp) return 'Never';
@@ -276,7 +257,6 @@ export default function Dashboard() {
                           </div>
                           <div>
                             <div className="text-gray-900 font-semibold">{session.userName || 'Unknown User'}</div>
-                            <div className="text-gray-500 text-xs">{formatDate(session.startTime)} at {formatTime(session.startTime)}</div>
                           </div>
                         </div>
                         <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
@@ -330,9 +310,8 @@ export default function Dashboard() {
               </div>
 
               <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
-                <div className="text-gray-500 text-xs mb-2 uppercase tracking-wider font-semibold">Last Sync</div>
-                <div className="text-gray-900 text-sm font-semibold">{formatTime(lastUpdate)}</div>
-                <div className="text-gray-500 text-xs mt-1">{getTimeDiff(lastUpdate)}</div>
+                <div className="text-gray-500 text-xs mb-2 uppercase tracking-wider font-semibold">Last Update</div>
+                <div className="text-gray-900 text-sm font-semibold">{getTimeDiff(lastUpdate)}</div>
               </div>
 
               <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
