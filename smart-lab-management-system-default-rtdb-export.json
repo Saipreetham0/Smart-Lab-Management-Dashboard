@@ -1,0 +1,643 @@
+{
+  "users": {
+    "29c9355f": {
+      "accessLog": {
+        "17798": {
+          "action": "DENIED",
+          "timestamp": "17798",
+          "userName": "User"
+        },
+        "23035": {
+          "action": "DENIED",
+          "timestamp": "23035",
+          "userName": "User"
+        },
+        "27329": {
+          "action": "DENIED",
+          "timestamp": "27329",
+          "userName": "User"
+        },
+        "49316": {
+          "action": "DENIED",
+          "timestamp": "49316",
+          "userName": "User"
+        },
+        "56721": {
+          "action": "DENIED",
+          "timestamp": "56721",
+          "userName": "User"
+        },
+        "81493": {
+          "action": "DENIED",
+          "timestamp": "81493",
+          "userName": "User"
+        },
+        "82160": {
+          "action": "DENIED",
+          "timestamp": "82160",
+          "userName": "User"
+        },
+        "83697": {
+          "action": "DENIED",
+          "timestamp": "83697",
+          "userName": "User"
+        },
+        "85623": {
+          "action": "DENIED",
+          "timestamp": "85623",
+          "userName": "User"
+        },
+        "123590": {
+          "action": "DENIED",
+          "timestamp": "123590",
+          "userName": "User"
+        },
+        "344710": {
+          "action": "DENIED",
+          "timestamp": "344710",
+          "userName": "User"
+        },
+        "357065": {
+          "action": "DENIED",
+          "timestamp": "357065",
+          "userName": "User"
+        },
+        "360065": {
+          "action": "DENIED",
+          "timestamp": "360065",
+          "userName": "User"
+        }
+      }
+    },
+    "f77c7551": {
+      "accessLog": {
+        "20418": {
+          "action": "LOGIN",
+          "timestamp": "20418",
+          "userName": "User"
+        },
+        "20640": {
+          "action": "LOGIN",
+          "timestamp": "20640",
+          "userName": "User"
+        },
+        "20651": {
+          "action": "LOGIN",
+          "timestamp": "20651",
+          "userName": "User"
+        },
+        "22206": {
+          "action": "LOGIN",
+          "timestamp": "22206",
+          "userName": "User"
+        },
+        "22294": {
+          "action": "LOGIN",
+          "timestamp": "22294",
+          "userName": "User"
+        },
+        "22710": {
+          "action": "LOGIN",
+          "timestamp": "22710",
+          "userName": "User"
+        },
+        "25462": {
+          "action": "LOGIN",
+          "timestamp": "25462",
+          "userName": "User"
+        },
+        "26200": {
+          "action": "LOGOUT",
+          "timestamp": "26200",
+          "userName": "User"
+        },
+        "30179": {
+          "action": "LOGIN",
+          "timestamp": "30179",
+          "userName": "User"
+        },
+        "30834": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "30834",
+          "userName": "User"
+        },
+        "30989": {
+          "action": "LOGIN",
+          "timestamp": "30989",
+          "userName": "User"
+        },
+        "33191": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "33191",
+          "userName": "User"
+        },
+        "36966": {
+          "action": "LOGIN",
+          "timestamp": "36966",
+          "userName": "User"
+        },
+        "37386": {
+          "action": "LOGIN",
+          "timestamp": "37386",
+          "userName": "User"
+        },
+        "41378": {
+          "action": "LOGOUT",
+          "timestamp": "41378",
+          "userName": "User"
+        },
+        "41451": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "41451",
+          "userName": "User"
+        },
+        "47789": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "47789",
+          "userName": "User"
+        },
+        "51459": {
+          "action": "LOGIN",
+          "timestamp": "51459",
+          "userName": "User"
+        },
+        "60618": {
+          "action": "LOGIN",
+          "timestamp": "60618",
+          "userName": "User"
+        },
+        "72147": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "72147",
+          "userName": "User"
+        },
+        "77770": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "77770",
+          "userName": "User"
+        },
+        "81488": {
+          "action": "LOGOUT",
+          "timestamp": "81488",
+          "userName": "User"
+        },
+        "84176": {
+          "action": "LOGIN",
+          "timestamp": "84176",
+          "userName": "User"
+        },
+        "87750": {
+          "action": "LOGOUT",
+          "timestamp": "87750",
+          "userName": "User"
+        },
+        "88211": {
+          "action": "LOGIN",
+          "timestamp": "88211",
+          "userName": "User"
+        },
+        "94624": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "94624",
+          "userName": "User"
+        },
+        "95927": {
+          "action": "LOGIN",
+          "timestamp": "95927",
+          "userName": "User"
+        },
+        "100084": {
+          "action": "LOGIN",
+          "timestamp": "100084",
+          "userName": "User"
+        },
+        "103153": {
+          "action": "LOGIN",
+          "timestamp": "103153",
+          "userName": "User"
+        },
+        "118572": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "118572",
+          "userName": "User"
+        },
+        "120425": {
+          "action": "LOGIN",
+          "timestamp": "120425",
+          "userName": "User"
+        },
+        "125447": {
+          "action": "LOGOUT",
+          "timestamp": "125447",
+          "userName": "User"
+        },
+        "132933": {
+          "action": "LOGOUT",
+          "timestamp": "132933",
+          "userName": "User"
+        },
+        "136012": {
+          "action": "LOGIN",
+          "timestamp": "136012",
+          "userName": "User"
+        },
+        "159429": {
+          "action": "LOGIN",
+          "timestamp": "159429",
+          "userName": "User"
+        },
+        "166217": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "166217",
+          "userName": "User"
+        },
+        "166285": {
+          "action": "LOGOUT",
+          "timestamp": "166285",
+          "userName": "User"
+        },
+        "168297": {
+          "action": "LOGOUT",
+          "timestamp": "168297",
+          "userName": "User"
+        },
+        "168993": {
+          "action": "LOGIN",
+          "timestamp": "168993",
+          "userName": "User"
+        },
+        "169867": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "169867",
+          "userName": "User"
+        },
+        "174483": {
+          "action": "LOGIN",
+          "timestamp": "174483",
+          "userName": "User"
+        },
+        "200557": {
+          "action": "LOGOUT",
+          "timestamp": "200557",
+          "userName": "User"
+        },
+        "204264": {
+          "action": "LOGIN",
+          "timestamp": "204264",
+          "userName": "User"
+        },
+        "204788": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "204788",
+          "userName": "User"
+        },
+        "206597": {
+          "action": "LOGOUT",
+          "timestamp": "206597",
+          "userName": "User"
+        },
+        "207696": {
+          "action": "LOGIN",
+          "timestamp": "207696",
+          "userName": "User"
+        },
+        "208635": {
+          "action": "LOGIN",
+          "timestamp": "208635",
+          "userName": "User"
+        },
+        "211447": {
+          "action": "LOGOUT",
+          "timestamp": "211447",
+          "userName": "User"
+        },
+        "225482": {
+          "action": "LOGOUT",
+          "timestamp": "225482",
+          "userName": "User"
+        },
+        "229604": {
+          "action": "LOGIN",
+          "timestamp": "229604",
+          "userName": "User"
+        },
+        "232530": {
+          "action": "LOGIN",
+          "timestamp": "232530",
+          "userName": "User"
+        },
+        "240170": {
+          "action": "LOGIN",
+          "timestamp": "240170",
+          "userName": "User"
+        },
+        "247626": {
+          "action": "LOGOUT",
+          "timestamp": "247626",
+          "userName": "User"
+        },
+        "286272": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "286272",
+          "userName": "User"
+        },
+        "309141": {
+          "action": "LOGIN",
+          "timestamp": "309141",
+          "userName": "User"
+        },
+        "339409": {
+          "action": "AUTO_POWEROFF",
+          "timestamp": "339409",
+          "userName": "User"
+        },
+        "368535": {
+          "action": "LOGIN",
+          "timestamp": "368535",
+          "userName": "User"
+        },
+        "371782": {
+          "action": "LOGOUT",
+          "timestamp": "371782",
+          "userName": "User"
+        }
+      },
+      "currentStatus": {
+        "current": 0,
+        "lastUpdate": 79493,
+        "power": 0,
+        "status": "active"
+      },
+      "sessions": {
+        "20543": {
+          "duration": 12,
+          "endReason": "idle_timeout",
+          "endTime": 33325,
+          "energyUsed": 0.00271,
+          "startTime": 20543,
+          "status": "completed",
+          "userName": "User"
+        },
+        "21150": {
+          "duration": 9,
+          "endReason": "idle_timeout",
+          "endTime": 31042,
+          "energyUsed": 0.10713,
+          "startTime": 21150,
+          "status": "completed",
+          "userName": "User"
+        },
+        "21317": {
+          "duration": 50,
+          "endReason": "idle_timeout",
+          "endTime": 72254,
+          "energyUsed": 0.00532,
+          "startTime": 21317,
+          "status": "completed",
+          "userName": "User"
+        },
+        "22784": {
+          "duration": 55,
+          "endReason": "idle_timeout",
+          "endTime": 77960,
+          "energyUsed": 0.00404,
+          "startTime": 22784,
+          "status": "completed",
+          "userName": "User"
+        },
+        "22830": {
+          "startTime": 22830,
+          "status": "active",
+          "userName": "User"
+        },
+        "23601": {
+          "duration": 3,
+          "endReason": "manual_logout",
+          "endTime": 26704,
+          "energyUsed": 0,
+          "startTime": 23601,
+          "status": "completed",
+          "userName": "User"
+        },
+        "26993": {
+          "startTime": 26993,
+          "status": "active",
+          "userName": "User"
+        },
+        "30518": {
+          "duration": 51,
+          "endReason": "manual_logout",
+          "endTime": 81713,
+          "energyUsed": 0.01014,
+          "startTime": 30518,
+          "status": "completed",
+          "userName": "User"
+        },
+        "31563": {
+          "duration": 10,
+          "endReason": "idle_timeout",
+          "endTime": 41657,
+          "energyUsed": 0.08184,
+          "startTime": 31563,
+          "status": "completed",
+          "userName": "User"
+        },
+        "37093": {
+          "duration": 4,
+          "endReason": "manual_logout",
+          "endTime": 41500,
+          "energyUsed": 0.04499,
+          "startTime": 37093,
+          "status": "completed",
+          "userName": "User"
+        },
+        "37526": {
+          "duration": 10,
+          "endReason": "idle_timeout",
+          "endTime": 47912,
+          "energyUsed": 0,
+          "startTime": 37526,
+          "status": "completed",
+          "userName": "User"
+        },
+        "51716": {
+          "startTime": 51716,
+          "status": "active",
+          "userName": "User"
+        },
+        "61029": {
+          "duration": 27,
+          "endReason": "manual_logout",
+          "endTime": 88785,
+          "energyUsed": 0,
+          "startTime": 61029,
+          "status": "completed",
+          "userName": "User"
+        },
+        "84389": {
+          "duration": 10,
+          "endReason": "idle_timeout",
+          "endTime": 94737,
+          "energyUsed": 0.0711,
+          "startTime": 84389,
+          "status": "completed",
+          "userName": "User"
+        },
+        "88344": {
+          "duration": 30,
+          "endReason": "idle_timeout",
+          "endTime": 118685,
+          "energyUsed": 0,
+          "startTime": 88344,
+          "status": "completed",
+          "userName": "User"
+        },
+        "95937": {
+          "duration": 70,
+          "endReason": "manual_logout",
+          "endTime": 166395,
+          "energyUsed": 2.51211,
+          "startTime": 95937,
+          "status": "completed",
+          "userName": "User"
+        },
+        "96413": {
+          "duration": 36,
+          "endReason": "manual_logout",
+          "endTime": 133106,
+          "energyUsed": 0.00336,
+          "startTime": 96413,
+          "status": "completed",
+          "userName": "User"
+        },
+        "100843": {
+          "startTime": 100843,
+          "status": "active",
+          "userName": "User"
+        },
+        "103439": {
+          "duration": 65,
+          "endReason": "manual_logout",
+          "endTime": 168661,
+          "energyUsed": 0.03478,
+          "startTime": 103439,
+          "status": "completed",
+          "userName": "User"
+        },
+        "120555": {
+          "duration": 5,
+          "endReason": "manual_logout",
+          "endTime": 125575,
+          "energyUsed": 0,
+          "startTime": 120555,
+          "status": "completed",
+          "userName": "User"
+        },
+        "136176": {
+          "duration": 30,
+          "endReason": "idle_timeout",
+          "endTime": 166487,
+          "energyUsed": 0,
+          "startTime": 136176,
+          "status": "completed",
+          "userName": "User"
+        },
+        "159577": {
+          "duration": 10,
+          "endReason": "idle_timeout",
+          "endTime": 170007,
+          "energyUsed": 0.04766,
+          "startTime": 159577,
+          "status": "completed",
+          "userName": "User"
+        },
+        "169102": {
+          "duration": 31,
+          "endReason": "manual_logout",
+          "endTime": 200992,
+          "energyUsed": 1.00884,
+          "startTime": 169102,
+          "status": "completed",
+          "userName": "User"
+        },
+        "174991": {
+          "duration": 30,
+          "endReason": "idle_timeout",
+          "endTime": 205093,
+          "energyUsed": 0,
+          "startTime": 174992,
+          "status": "completed",
+          "userName": "User"
+        },
+        "204382": {
+          "duration": 2,
+          "endReason": "manual_logout",
+          "endTime": 206724,
+          "energyUsed": 0.04405,
+          "startTime": 204382,
+          "status": "completed",
+          "userName": "User"
+        },
+        "208754": {
+          "duration": 2,
+          "endReason": "manual_logout",
+          "endTime": 211642,
+          "energyUsed": 0.08495,
+          "startTime": 208754,
+          "status": "completed",
+          "userName": "User"
+        },
+        "208786": {
+          "duration": 16,
+          "endReason": "manual_logout",
+          "endTime": 225779,
+          "energyUsed": 0,
+          "startTime": 208786,
+          "status": "completed",
+          "userName": "User"
+        },
+        "229713": {
+          "startTime": 229713,
+          "status": "active",
+          "userName": "User"
+        },
+        "232740": {
+          "duration": 53,
+          "endReason": "idle_timeout",
+          "endTime": 286602,
+          "energyUsed": 0.00166,
+          "startTime": 232740,
+          "status": "completed",
+          "userName": "User"
+        },
+        "240416": {
+          "duration": 7,
+          "endReason": "manual_logout",
+          "endTime": 247791,
+          "energyUsed": 0,
+          "startTime": 240416,
+          "status": "completed",
+          "userName": "User"
+        },
+        "309642": {
+          "duration": 30,
+          "endReason": "idle_timeout",
+          "endTime": 339744,
+          "energyUsed": 0,
+          "startTime": 309642,
+          "status": "completed",
+          "userName": "User"
+        },
+        "368824": {
+          "duration": 3,
+          "endReason": "manual_logout",
+          "endTime": 372000,
+          "energyUsed": 0,
+          "startTime": 368824,
+          "status": "completed",
+          "userName": "User"
+        }
+      }
+    }
+  }
+}
